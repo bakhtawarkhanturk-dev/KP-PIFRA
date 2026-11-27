@@ -1,0 +1,6 @@
+{
+  "name": "KPK PIFRA",
+  "description": "Khyber Pakhtunkhwa PIFRA DDO & ALV Portal Android Application powered by Bakhtawar Khan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
