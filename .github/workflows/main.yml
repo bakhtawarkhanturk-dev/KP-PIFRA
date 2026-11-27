@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build:
-    name: Build Android APK
+    name: Build KPK PIFRA APK
     runs-on: ubuntu-latest
 
     steps:
@@ -25,22 +25,29 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v4
+      - name: Locate Gradle Wrapper
+        run: |
+          pwd
+          ls -la
+          find . -type f -name gradlew
 
       - name: Grant Gradle Permission
-  run: |
-    ls -la
-    find . -name gradlew
-    chmod +x gradlew
+        run: |
+          chmod +x ./gradlew
 
       - name: Build Debug APK
-        run: ./gradlew assembleDebug
+        run: |
+          ./gradlew assembleDebug
 
-      - name: Upload APK
+      - name: Find APK
+        run: |
+          find . -type f -name "*.apk"
+
+      - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: KPK-PIFRA-APK
           path: app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
           retention-days: 14
+          
