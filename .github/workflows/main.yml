@@ -29,7 +29,10 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
 
       - name: Grant Gradle Permission
-        run: chmod +x ./gradlew
+  run: |
+    ls -la
+    find . -name gradlew
+    chmod +x gradlew
 
       - name: Build Debug APK
         run: ./gradlew assembleDebug
