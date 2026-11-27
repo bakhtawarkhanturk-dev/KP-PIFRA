@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KPK PIFRA</string>
+    <string name="gov_header_title">Government of Khyber Pakhtunkhwa</string>
+    <string name="gov_header_subtitle">PIFRA Payroll &amp; Financial Portal</string>
+    <string name="portal_badge_label">OFFICIAL DDO / ALV ACCESS</string>
+    <string name="portal_card_title">KPK PIFRA DDO &amp; ALV Portal</string>
+    <string name="portal_card_description">Access the Project to Improve Financial Reporting &amp; Auditing (PIFRA) online portal for DDO allowances, salary slips, and financial services.</string>
+    <string name="enter_button_label">ENTER</string>
+    <string name="enter_button_subtitle">Launch m.pifra.gov.pk/DDOALV</string>
+    <string name="open_external_browser">Open in Browser</string>
+    <string name="quick_services_heading">Portal Quick Services</string>
+    <string name="service_ddo_title">DDO ALV Portal</string>
+    <string name="service_ddo_desc">Direct login for Drawing &amp; Disbursing Officers</string>
+    <string name="service_payslip_title">Monthly Salary Slips</string>
+    <string name="service_payslip_desc">Official PIFRA payroll &amp; allowance verification</string>
+    <string name="service_security_title">Secure HTTPS Connection</string>
+    <string name="service_security_desc">Encrypted access to m.pifra.gov.pk</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_portal">PIFRA Portal</string>
+    <string name="nav_guide">Portal Guide</string>
+    <string name="portal_top_bar_title">KPK PIFRA Portal</string>
+    <string name="portal_loading">Connecting to PIFRA Portal…</string>
+    <string name="portal_error_title">Unable to Load Portal</string>
+    <string name="portal_error_message">Please check your mobile data or Wi-Fi connection and try again. You can also open the portal in your device browser.</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_back">Back</string>
+    <string name="action_home">Home</string>
+    <string name="guide_title">Portal Access Guide</string>
+    <string name="guide_subtitle">Instructions &amp; technical information for KPK Government employees and DDOs</string>
+    <string name="guide_step_1_title">1. Enter the Portal</string>
+    <string name="guide_step_1_body">Tap the primary ENTER button on the Home screen to open https://m.pifra.gov.pk/DDOALV directly inside the app.</string>
+    <string name="guide_step_2_title">2. DDO / Employee Credentials</string>
+    <string name="guide_step_2_body">Sign in using your assigned PIFRA DDO code, CNIC, or personal number as required by the provincial treasury portal.</string>
+    <string name="guide_step_3_title">3. External Browser &amp; Printing</string>
+    <string name="guide_step_3_body">Use the browser icon in the portal toolbar at any time to open the current page in Chrome or your default browser for PDF downloads.</string>
+    <string name="guide_url_card_title">Connected Official Endpoint</string>
+    <string name="guide_url_value">https://m.pifra.gov.pk/DDOALV</string>
+    <string name="footer_powered_by">Powered by Bakhtawar Khan</string>
+    <string name="cd_kpk_emblem">Official Khyber Pakhtunkhwa Government Emblem</string>
+    <string name="cd_enter_portal">Enter KPK PIFRA Portal</string>
+</resources>

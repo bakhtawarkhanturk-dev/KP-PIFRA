@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.KpkPifra" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:statusBarColor">@color/kpk_blue_primary</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+</resources>

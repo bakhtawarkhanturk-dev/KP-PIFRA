@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kpk_blue_primary">#FF0D47A1</color>
+    <color name="kpk_blue_secondary">#FF1565C0</color>
+    <color name="kpk_blue_light">#FFE3F2FD</color>
+    <color name="kpk_gold_accent">#FFD4AF37</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
